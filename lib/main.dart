@@ -45,7 +45,7 @@ class MainAppShell extends StatefulWidget {
 
 class _MainAppShellState extends State<MainAppShell> {
   late final BookingController _bookingController;
-  int _currentViewIndex = 0; // 0: Guest Check-in, 1: Main Dashboard, 2: Guest Check-out
+  int _currentViewIndex = 1; // 0: Guest Check-in, 1: Main Dashboard, 2: Guest Check-out
 
   @override
   void initState() {
